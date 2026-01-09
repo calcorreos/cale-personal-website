@@ -522,5 +522,51 @@ footer {
     font-size: 1.1rem;
     font-style: italic;
     padding: 3rem 0;
-    opacity: 0.7;
-}
+
+    .placeholder-message {
+        grid-column: 1 / -1;
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        font-style: italic;
+        padding: 3rem 0;
+        opacity: 0.7;
+    }
+
+    /* About Section Specifics */
+    .text-link {
+        color: var(--accent-color);
+        text-decoration: none;
+        position: relative;
+        font-weight: 500;
+    }
+
+    .text-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--accent-color);
+        transition: width var(--transition-speed);
+    }
+
+    .text-link:hover::after {
+        width: 100%;
+    }
+
+    .about-socials {
+        margin: 1.5rem 0;
+    }
+
+    .about-socials a {
+        color: var(--text-secondary);
+        transition: color var(--transition-speed), transform var(--transition-speed);
+        display: inline-block;
+    }
+
+    .about-socials a:hover {
+        color: var(--accent-color);
+        transform: translateY(-2px);
+    }
