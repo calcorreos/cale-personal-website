@@ -513,3 +513,14 @@ footer {
 .timeline-content ul li {
     margin-bottom: 0.5rem;
 }
+
+/* Empty State Message */
+.placeholder-message {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 3rem 0;
+    opacity: 0.7;
+}
