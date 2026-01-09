@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Cale Correos">
+    <title>Cale Correos | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Cale<span class="accent">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="section hero">
+            <div class="hero-content">
+                <h1 class="animate-up delay-1">Hello, I'm <span class="gradient-text">Cale Correos</span>.</h1>
+                <p class="subtitle animate-up delay-2">Building digital experiences that matter.</p>
+                <div class="cta-group animate-up delay-3">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#about" class="btn secondary">More About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="assets/profile.jpg" alt="Cale Correos">
+                    </div>
+                    <div class="about-text">
+                        <p>I am a Digital Systems Engineer at <strong>Haven Health</strong>, focusing on creating clean,
+                            efficient, and user-centric web applications. With a keen eye for design and a love for
+                            code, I bridge the gap between aesthetics and functionality.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open source,
+                            or enjoying a good cup of coffee.</p>
+                        <a href="assets/Caleb_Correos_Recent.pdf" class="btn outline" download>Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="timeline-section">
+                    <h3 class="timeline-title">My Journey</h3>
+                    <div class="timeline">
+                        <!-- Current Role -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="date">Present</span>
+                                <h3>Digital Systems Engineer</h3>
+                                <h4>Haven Health</h4>
+                                <p>Building digital systems to improve healthcare outcomes.</p>
+                            </div>
+                        </div>
+
+                        <!-- Quizlet -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="date">Aug 2022 – Oct 2024</span>
+                                <h3>Full-Stack Engineer</h3>
+                                <h4>Quizlet</h4>
+                                <p class="location">San Francisco, CA</p>
+                                <ul>
+                                    <li>Improved checkout reliability by redesigning failed payment handling with
+                                        smarter retry logic, reducing API calls and costs by 50%.</li>
+                                    <li>Built full-stack admin tools (React, TypeScript) enabling product ops to
+                                        self-manage refunds/subscriptions.</li>
+                                    <li>Developed an internal finance dashboard consolidating payments data across 25+
+                                        currencies using SQL/Terraform on GCP.</li>
+                                    <li>Integrated Apple Pay and Google Pay, expanding payment flexibility and improving
+                                        completion rates.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Guidewire -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="date">June 2021 – Aug 2021</span>
+                                <h3>Software Development Intern</h3>
+                                <h4>Guidewire Software</h4>
+                                <p class="location">San Mateo, CA</p>
+                                <ul>
+                                    <li>Architected a dynamic access control system with Java, Spring, and microservices
+                                        on AWS/GCP.</li>
+                                    <li>Integrated siloed OAuth environments into a unified Data Model on DynamoDB.</li>
+                                    <li>Engineered a REST API with Rego for secure role-based access to policy data.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Fora Travel -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="date">June 2024 – Present</span>
+                                <h3>Travel Agent</h3>
+                                <h4>Fora Travel</h4>
+                                <p class="location">Remote</p>
+                                <p>Planning and booking trips, creating personalized itineraries balancing goals and
+                                    budgets.</p>
+                            </div>
+                        </div>
+
+                        <!-- We Japan -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="date">2019</span>
+                                <h3>Business Development Intern</h3>
+                                <h4>We Japan</h4>
+                                <p class="location">Tokyo, Japan</p>
+                                <p>Directed online English lessons and built a class website. conducted bilingual market
+                                    research.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="project-grid">
+                    <!-- Project placeholders -->
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Project Alpha</h3>
+                            <p>A cutting-edge web application built with modern technologies.</p>
+                            <div class="tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-content">
+                            <h3>Project Beta</h3>
+                            <p>An e-commerce solution designed for scalability and performance.</p>
+                            <div class="tags">
+                                <span>Next.js</span>
+                                <span>Stripe</span>
+                            </div>
+                            <a href="#" class="link-arrow">View Project &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="section">
+            <div class="container">
+                <h2 class="section-title">Latest Thoughts</h2>
+                <div class="blog-grid">
+                    <article class="blog-post">
+                        <span class="date">October 12, 2025</span>
+                        <h3>The Future of Web Development</h3>
+                        <p>Exploring the trends that will shape the internet in the coming years.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="blog-post">
+                        <span class="date">September 28, 2025</span>
+                        <h3>Mastering CSS Grid</h3>
+                        <p>A comprehensive guide to building complex layouts with ease.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cale Correos. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
